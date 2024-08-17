@@ -1,0 +1,7 @@
+node_modules/
+
+src/config.env
+
+
+src/config/firebase/serviceAccountKey.json
+

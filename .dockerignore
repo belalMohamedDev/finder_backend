@@ -1,0 +1,11 @@
+/node_modules
+
+# /ai
+
+/src/uploads
+
+Dockerfile
+config.env
+docker-compose*
+
+

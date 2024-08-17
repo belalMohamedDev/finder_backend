@@ -1,0 +1,22 @@
+version: "3.8"
+services:
+  node-app:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+      target: dev    
+    volumes:
+      - ./src:/finder/src:ro
+      
+    ports:
+      - 4040:4040  
+    environment:
+      - NODE_ENV=development
+
+
+
+      
+
+
+
+      

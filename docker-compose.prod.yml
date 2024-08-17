@@ -1,0 +1,21 @@
+version: "3.8"
+services:
+  node-app:
+    container_name: finder-container
+    build: 
+      context: . 
+      dockerfile: Dockerfile
+      target: prod
+    volumes:
+      - ./src:/finder/src:rw
+    environment:
+      - NODE_ENV=Production
+
+
+
+
+      
+
+
+
+      
